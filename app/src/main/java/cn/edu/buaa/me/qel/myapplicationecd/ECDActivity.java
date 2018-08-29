@@ -158,8 +158,7 @@ public class ECDActivity extends Activity implements View.OnTouchListener, Camer
         item4.setTitle(s4);
         return true;
     }
-
-
+    
 //    //设置menu菜单的背景 ,年代久远，不管用
 //    protected void setMenuBackground(){
 //
