@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- 文件 -->
+    <item
+        android:id="@+id/file"
+        android:icon="@mipmap/ic_launcher"
+        android:title="@string/file"
+        app:showAsAction="ifRoom|withText">
+        <menu>
+            <item
+                android:id="@+id/open_picture"
+                android:title="@string/open_picture" />
+            <item
+                android:id="@+id/save_picture"
+                android:title="@string/save_picture" />
+            <item
+                android:id="@+id/exit"
+                android:title="@string/exit" />
+        </menu>
+    </item>
+
+    <!-- 模式 -->
+    <item
+        android:id="@+id/mode"
+        android:title="@string/mode">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/scan"
+                    android:title="@string/scan" />
+                <item
+                    android:id="@+id/edit"
+                    android:title="@string/edit" />
+            </group>
+        </menu>
+    </item>
+
+
+    <!-- 报表生成 -->
+    <item
+        android:id="@+id/report"
+        android:title="@string/report">
+        <menu>
+            <item
+                android:id="@+id/report_gene"
+                android:title="@string/report_gene" />
+        </menu>
+    </item>
+
+    <!-- 设置 -->
+    <item
+        android:id="@+id/setting"
+        android:title="@string/setting">
+        <menu>
+            <item
+                android:id="@+id/path"
+                android:title="@string/path" />
+        </menu>
+    </item>
+</menu>
