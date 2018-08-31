@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReportActivity">
+
+<android.support.v7.widget.LinearLayoutCompat
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开始时间"
+        android:textSize="40dp"
+        android:background="@color/color_yellow" />
+
+    <TextView
+        android:id="@+id/start_time"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="40dp"
+        android:onClick="on_start_time"/>
+
+    <TextView
+        android:id="@+id/end_time"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="40dp"
+        android:background="@color/color_yellow"
+        android:onClick="on_end_time"/>
+</android.support.v7.widget.LinearLayoutCompat>
+
+
+</android.support.constraint.ConstraintLayout>
