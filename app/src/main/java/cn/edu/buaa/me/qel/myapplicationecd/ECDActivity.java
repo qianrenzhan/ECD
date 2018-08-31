@@ -319,6 +319,7 @@ public class ECDActivity extends Activity implements View.OnTouchListener, Camer
                             for (int i = 0; i < mBlobColorHsv.val.length; i++)
                                 mBlobColorHsv.val[i] /= pointCount;
 
+                            
                             mBlobColorRgba = converScalarHsv2Rgba(mBlobColorHsv);
 
 //                            Toast.makeText(ECDActivity.this, "Touched rgba color: (" + mBlobColorRgba.val[0] + ", " + mBlobColorRgba.val[1] +
